@@ -9,8 +9,11 @@ button.addEventListener('click', () => {
     // 显示隐藏的消息
     message.style.display = 'block';
     hideButton();
+    let sound = new Audio("click.mp3");
+        sound.play();
 });
 
 function hideButton() {
     document.getElementById("showMessageButton").style.display = "none";
 }
+
