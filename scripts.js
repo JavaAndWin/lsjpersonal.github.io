@@ -9,7 +9,7 @@ button.addEventListener('click', () => {
     // 显示隐藏的消息
     message.style.display = 'block';
     hideButton();
-    let sound = new Audio("click.mp3");
+    let sound = new Audio("root/click.mp3");
         sound.play();
 });
 
